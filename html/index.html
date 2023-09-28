@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Catálogo de Personagens</title>
+</head>
+<body>
+    <h1>Personagens de Rick and Morty</h1>
+
+    <div class="filtros">
+        <input type="text" id="nomePersonagem" placeholder="Nome do Personagem">
+        <select id="statusPersonagem">
+            <option value="">Status do Personagem</option>
+            <option value="Alive">Vivo</option>
+            <option value="Dead">Morto</option>
+            <option value="unknown">Desconhecido</option>
+        </select>
+        <button id="filtrar">Filtrar</button>
+    </div>
+
+    <div class="container-personagens" id="containerPersonagens">
+    </div>
+
+    <div class="paginacao">
+        <button id="paginaAnterior">Página Anterior</button>
+        <span id="paginaAtual">1</span>
+        <button id="proximaPagina">Próxima Página</button>
+    </div>
+    
+    <script src="/Js/script.js"></script>
+</body>
+</html>

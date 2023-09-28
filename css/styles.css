@@ -1,0 +1,81 @@
+/* Reset de estilos básicos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filtros input[type="text"],
+.filtros select,
+.filtros button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personagem {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.personagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paginacao button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.paginacao span {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
